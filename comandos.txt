@@ -1,0 +1,50 @@
+   11  git add README.md
+   12  git commit -m
+   13  git commit -m 'commit 1'
+   14  cd .github
+   15  mkdir workflows
+   16  cd workflows
+   17  nano 01-hello-local.yml
+   18  nano 01-hello-local.yml
+   19  act -l
+   20  act -1
+   21  act -l
+   22  docker --version
+   23  docker ps
+   24  act--version
+   25  act --version
+   26  act --version
+   27  choco install act-cli
+   28  winget install nektos.act~
+   29  winget install nektos.act
+   30  act -1
+   31  act -l
+   32  act --version
+   33  act --version
+   34  cd meu-projeto.ci
+   35  cd meu-projeto-ci
+   36  cd .github/workflows
+   37  act -l
+   38  cd meu-projeto-ci
+   39  cd ..
+   40  cd..
+   41  cd ..
+   42  act -l
+   43  act -W ./.github/workflows/meu-teste.yml | grep "|"
+   44  act -W .github/workflows/01-hello-local.yml | grep "Iniciando\|Finalizado\|v"
+   45  cd meu-projeto-ci
+   46  act -W .github/workflows/01-hello-local.yml | grep "Iniciando\|Finalizado\|v"
+   47  cd .github/workflows
+   48  nano 02-pipeline-principal.yml
+   49  cd ..
+   50  cd ..
+   51  act -n
+   52  act -l
+   53  act -j scan-de-seguranca
+   54  git remote add git@github.com:joaovpereira11/meu-projeto-ci..git
+   55  git remote -v
+   56  git remote add origin git@github.com:joaovpereira11/meu-projeto-ci..git
+   57  git remote -v
+   58  git branch -M main
+   59  git push -u origin main
+   60  history 50 > comandos.txt
