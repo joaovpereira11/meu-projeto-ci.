@@ -1,1 +1,1 @@
-inicio
+Os jobs rodaram em paralelo porque possuem a mesma dependência (setup-e-lint) e não dependem um do outro. Na saída do terminal, isso é comprovado pela criação simultânea de dois containers e pelos logs intercalados dos dois jobs no mesmo Stage
